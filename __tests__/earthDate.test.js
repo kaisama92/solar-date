@@ -2,14 +2,9 @@ import EarthAge from './../src/js/earthDate.js'
 
 describe('EarthAge', () => {
 
-  test('Should create an object with properties this.name and this.age', () => {
-    const myEarthAge = new EarthAge("Kai", 25);
-    expect(myEarthAge).toEqual({"name": "Kai", "age": 25});
-  });
-
-  test('should create an object with properties this.name, this.age, and this.mercuryAge', () => {
+  test('should create an object with properties this.name, this.age, this.mercuryAge, this.venusAge, this.marsAge, and this.jupiterAge', () => {
     const myEarthAge = new EarthAge("kai", 25);
-    expect(myEarthAge).toEqual({"name": "kai", "age": 25, "mercuryAge": 104.17})
+    expect(myEarthAge).toEqual({"name": "kai", "age": 25, "mercuryAge": 104.17, "venusAge": 40.32, "marsAge": 13.30, "jupiterAge": 2.11})
   })
 
   // test('Should find the mercury age of a person born on earth', () => {
