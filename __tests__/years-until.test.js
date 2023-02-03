@@ -15,5 +15,9 @@ describe('YearsUntil', () => {
   test('should create an object with the key this.difference that determines how many years until the given age', () => {
     expect(until35.difference).toEqual(10);
   });
+
+  test('should determine how many Mercury years this.difference equates to', () => {
+    expect(until35.onMercury()).toEqual(41.67);
+  });
     
 })
