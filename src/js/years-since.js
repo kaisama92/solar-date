@@ -1,3 +1,6 @@
-export function yearsSince(input, object){
-return parseInt(object.age - input);
+export default class YearsSince{
+
+  constructor(input, object) {
+
   }
+}
