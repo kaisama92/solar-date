@@ -21,6 +21,7 @@ export default class EarthAge {
   }
 
   findJupiter() {
-    
+    let jupiter = this.age / 11.86;
+    this.jupiter = parseFloat(jupiter.toFixed(2));
   }
 }
