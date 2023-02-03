@@ -11,11 +11,17 @@ describe('EarthAge', () => {
     const myEarthAge = new EarthAge("kai", 25);
     myEarthAge.findMercury();
     expect(myEarthAge.mercury).toEqual(104.17);
-  });
+  }); 
 
   test('Should find the venus age of a person born on earth', () => {
     const myEarthAge = new EarthAge("kai", 25);
     myEarthAge.findVenus();
     expect(myEarthAge.venus).toEqual(40.32);
+  });
+
+  test('should find the mars age of a person born on earth', () => {
+    const myEarthAge = new EarthAge("kai", 25);
+    myEarthAge.findMars();
+    expect(myEarthAge.mars).toEqual(13.30)
   });
 })

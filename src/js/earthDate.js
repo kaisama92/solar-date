@@ -14,4 +14,8 @@ export default class EarthAge {
     let venus = this.age / 0.62;
     this.venus = parseFloat(venus.toFixed(2));
   }
+
+  findMars() {
+    
+  }
 }
