@@ -6,5 +6,7 @@ export default class EarthAge {
   }
 
   findMercury() {
+    let mercury = this.age / 0.24;
+    this.mercury = parseFloat(mercury.toFixed(2));
   }
 }
