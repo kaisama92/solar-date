@@ -13,6 +13,6 @@ export default class YearsSince{
   }
 
   onMars(){
-    
+    return parseFloat((this.difference / 1.88).toFixed(2));
   }
 }
