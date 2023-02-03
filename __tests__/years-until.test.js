@@ -20,4 +20,7 @@ describe('YearsUntil', () => {
     expect(until35.onMercury()).toEqual(41.67);
   });
   
+  test('should determine how many Venus years this.difference equates to', () => {
+    expect(until35.onVenus()).toEqual(16.13);
+  });
 })
