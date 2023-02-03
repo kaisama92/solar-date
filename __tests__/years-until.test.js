@@ -13,7 +13,7 @@ describe('YearsUntil', () => {
   });
 
   test('should create an object with the key this.difference that determines how many years until the given age', () => {
-    expect(until35.differnce).toEqual(10);
+    expect(until35.difference).toEqual(10);
   });
     
 })
