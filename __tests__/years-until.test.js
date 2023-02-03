@@ -28,4 +28,7 @@ describe('YearsUntil', () => {
     expect(until35.onMars()).toEqual(5.32);
   });
 
+  test('should determine how many Jupiter years this.difference equates to', () => {
+    expect(until35.onJupiter()).toEqual(0.84);
+  });
 })
