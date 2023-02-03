@@ -18,7 +18,7 @@ describe('YearsSince', () => {
   test('should determine what this.difference equates to in Venus years', () => {
     const myAge = new EarthAge("kai", 25);
     const sinceTwelve = new YearsSince(12, myAge);
-    expect(sinceTwelve.onVenus()).toEqual(8.06);
+    expect(sinceTwelve.onVenus()).toEqual(20.97);
   })
   // test('should determine how many years have occured since two given times', () => {
   //   const earthAge = new EarthAge("kai", 25);
