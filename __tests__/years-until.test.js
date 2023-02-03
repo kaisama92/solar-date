@@ -19,5 +19,5 @@ describe('YearsUntil', () => {
   test('should determine how many Mercury years this.difference equates to', () => {
     expect(until35.onMercury()).toEqual(41.67);
   });
-    
+  
 })
