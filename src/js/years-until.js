@@ -9,6 +9,6 @@ export default class YearsUntil {
   }
 
   onVenus(){
-    
+    return parseFloat((this.difference / 0.62).toFixed(2));
   }
 }
