@@ -17,6 +17,6 @@ export default class YearsUntil {
   }
 
   onJupiter(){
-    return parseFloat((this.difference / 11.86).toFixed(2));
+        return parseFloat((this.difference / 11.86).toFixed(2));
   }
 }
