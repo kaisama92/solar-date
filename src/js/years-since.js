@@ -7,4 +7,8 @@ export default class YearsSince{
   onMercury(){
     return parseFloat((this.difference / 0.24).toFixed(2));
   }
+
+  onVenus(){
+    
+  }
 }

@@ -15,6 +15,11 @@ describe('YearsSince', () => {
     expect(sinceFive.onMercury()).toEqual(83.33);
   });
 
+  test('should determine what this.difference equates to in Venus years', () => {
+    const myAge = new EarthAge("kai", 25);
+    const sinceTwelve = new YearsSince(12, myAge);
+    expect(sinceTwelve.onVenus()).toEqual(8.06);
+  })
   // test('should determine how many years have occured since two given times', () => {
   //   const earthAge = new EarthAge("kai", 25);
   //   expect(yearsSince(5, earthAge)).toEqual(20);
