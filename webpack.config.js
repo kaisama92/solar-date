@@ -19,7 +19,7 @@ module.exports = {
       verbose: true
     }),
     new HtmlWebpackPlugin({
-      title: 'Language Selector',
+      title: 'Solar Date',
       template: './src/index.html',
       inject: 'body'
     })
