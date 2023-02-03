@@ -4,4 +4,7 @@ export default class EarthAge {
     this.name = name;
     this.age = age;
   }
+
+  findMercury() {
+  }
 }

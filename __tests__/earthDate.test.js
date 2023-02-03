@@ -6,4 +6,10 @@ describe('EarthAge', () => {
     const myEarthAge = new EarthAge("Kai", 25);
     expect(myEarthAge).toEqual({"name": "Kai", "age": 25});
   });
+
+  test('Should find the mercury age of a person born on earth', () => {
+    const myEarthAge = new EarthAge("kai", 25);
+    myEarthAge.findMercury();
+    expect(myEarthAge.mercury).toEqual(104.16);
+  });
 })
