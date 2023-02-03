@@ -26,6 +26,12 @@ describe('YearsSince', () => {
     const sinceTwelve = new YearsSince(12, myAge);
     expect(sinceTwelve.onMars()).toEqual(6.91)
   });
+
+  test('should determine what this.difference equates to in Mars years', () => {
+    const myAge = new EarthAge("kai", 25);
+    const sinceTwelve = new YearsSince(12, myAge);
+    expect(sinceTwelve.onJupiter()).toEqual(1.10);
+  });
   // test('should determine how many years have occured since two given times', () => {
   //   const earthAge = new EarthAge("kai", 25);
   //   expect(yearsSince(5, earthAge)).toEqual(20);
