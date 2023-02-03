@@ -11,4 +11,8 @@ export default class YearsSince{
   onVenus(){
     return parseFloat((this.difference / 0.62).toFixed(2));
   }
+
+  onMars(){
+    
+  }
 }
