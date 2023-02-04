@@ -1,6 +1,6 @@
-# JS Dev Environment Template
+# Solar-Ages
 
-#### This Application sets up a development environment. 
+#### This application finds your age on multiple planets 
 
 #### By Kai Clausen
 
@@ -18,22 +18,17 @@
 
 ## Description
 
-_This application will set up a JavaScript dev environment utilizing the technologies listed above. This makes starting and working on a modular application easier._
+_This application is a WIP to demonstrate the author's ability to use TDD in a dev environment utilizing such tools as ESLint and Jest._
 
 ## Setup/Installation Requirements
 
 * _Clone this repository to your Desktop_
-* _Install Node._
-* _Type the command 'npm install' into your command line. This will install the technologies needed by the dev environment._
-* _Use the command 'npm run build' to build your project._
-* _Use the command 'npm run start' to build your project and start a live server._
-* _Use the command 'npm run lint' to use ESLint on your project._
-* _Use the command 'npm run test' to use Jest to test your logic. You will need to set up a `__tests__` directory in the top level of your project with files for each test suite you would like to run. These suites will utilize import and export statements to link the js files you would like to test._
+* _View files_
 
 
 ## Known Bugs
 
-* _In some cases, npm may not function properly. To fix this, you will need to install a node version manager to find a version of Node that works. I used version 16.14.0_
+* _This app is a WIP, and as such, the UI and UI Logic is not finished. These two elements were not required elements of the project. To see the beginning of the UI Logic, visit the UI-test branch in the github repository_
 
 ## License
 
