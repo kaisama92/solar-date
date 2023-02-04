@@ -15,10 +15,11 @@ function handleSubmit(event){
   let newAge = new EarthDate(name, age);
   let since = new YearsSince(sinceInput, newAge);
   let until = new YearsUntil(untilInput, newAge);
-  let sinceArray = [parseFloat(since.onMercury()), parseFloat(since.onVenus()), parseFloat(since.onMars()), parseFloat(since.onJupiter())];
-  let untilArray = [parseFloat(until.onMercury()), parseFloat(until.onVenus()), parseFloat(until.onMars()), parseFloat(until.onJupiter())];
+  let sinceArray = [since.onMercury(), since.onVenus(), since.onMars(), since.onJupiter()];
+  let untilArray = [until.onMercury(), until.onVenus(), until.onMars(), until.onJupiter()];
+  let currentArray = [newAge.mercuryAge, newAge.venusAge, newAge.marsAge, newAge.jupiterAge];
   let p1 = document.createElement("p")
-  p1.append(`${newAge.name}! Your current age is ${newAge.age} on Earth.`)
+  p1.append(`${newAge.name}! Your current age is ${newAge.age} on Earth. Here is your age on other planets- ${currentArray.join("<br>")}`);
 }
 
 window.addEventListener("load", function() {
