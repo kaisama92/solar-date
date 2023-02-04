@@ -17,18 +17,18 @@ describe('YearsUntil', () => {
   });
 
   test('should determine how many Mercury years this.difference equates to', () => {
-    expect(until35.onMercury()).toEqual(41.67);
+    expect(until35.onMercury()).toEqual("Mercury: 41.67");
   });
   
   test('should determine how many Venus years this.difference equates to', () => {
-    expect(until35.onVenus()).toEqual(16.13);
+    expect(until35.onVenus()).toEqual("Venus: 16.13");
   });
 
   test('should determine how many Venus years this.difference equates to', () => {
-    expect(until35.onMars()).toEqual(5.32);
+    expect(until35.onMars()).toEqual("Mars: 5.32");
   });
 
   test('should determine how many Jupiter years this.difference equates to', () => {
-    expect(until35.onJupiter()).toEqual(0.84);
+    expect(until35.onJupiter()).toEqual("Jupiter: 0.84");
   });
 })
