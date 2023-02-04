@@ -7,22 +7,22 @@ describe('YearsSince', () => {
 
 
   test('should create an object that contains the key this.difference', () => {
-    expect(sinceTwelve.difference).toEqual(20);
+    expect(sinceTwelve.difference).toEqual(13);
   });
 
   test('should determine what the difference equates to in Mercury years', () => {
-    expect(sinceTwelve.onMercury()).toEqual(54.17);
+    expect(sinceTwelve.onMercury()).toEqual("Mercury: 54.17");
   });
 
   test('should determine what this.difference equates to in Venus years', () => {
-    expect(sinceTwelve.onVenus()).toEqual(20.97);
+    expect(sinceTwelve.onVenus()).toEqual("Venus: 20.97");
   });
 
   test('should determine what this.difference equates to in Mars years', () => {
-    expect(sinceTwelve.onMars()).toEqual(6.91)
+    expect(sinceTwelve.onMars()).toEqual("Mars: 6.91");
   });
 
   test('should determine what this.difference equates to in Mars years', () => {
-    expect(sinceTwelve.onJupiter()).toEqual(1.10);
+    expect(sinceTwelve.onJupiter()).toEqual("Jupiter: 1.1");
   });
 })
