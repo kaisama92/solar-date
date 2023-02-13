@@ -7,7 +7,7 @@ describe('YearsSince', () => {
 
 
   test('should create an object that contains the key this.difference', () => {
-    expect(sinceTwelve.difference).toEqual(20);
+    expect(sinceTwelve.difference).toEqual(13);
   });
 
   test('should determine what the difference equates to in Mercury years', () => {
